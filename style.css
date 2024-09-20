@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.box{
+    background-color: white;
+    width: 600PX;
+    height: 350PX;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    box-shadow: 1px 1px 2px 3px hsl(221, 100%, 96%) ;
+    
+}
+.lf{
+    background-color: hsl(252, 100%, 67%);
+    background-image: linear-gradient(to top,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.on{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.krug{
+    background-color: hsla(256, 72%, 46%, 1);
+    border-radius: 60%;
+    background-image: linear-gradient(to top,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.reaction{
+    background-color: hsla(0, 100%, 67%, 0.253);
+    width:150px ;
+    height: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: hsla(0, 100%, 67%, 0.901);
+}
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.303);
+    width:150px ;
+    height: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color:hsla(39, 100%, 56%, 0.85) ;
+}
+.Verbal{
+    background-color:hsla(166, 100%, 37%, 0.414);
+    width:150px ;
+    height: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: hsla(166, 100%, 37%, 0.935);
+}
+.Visual{
+    background-color: hsla(234, 85%, 45%, 0.396);
+    width:150px ;
+    height: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: hsla(234, 85%, 45%, 0.923);
+}
+
+button{
+    background-color: rgba(21, 21, 215, 0.803);
+    color: aliceblue;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+}
